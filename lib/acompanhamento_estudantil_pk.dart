@@ -6,7 +6,7 @@ import 'package:http/http.dart';
 
 import 'models/Adress.dart';
 /// A Calculator.
-class Location {
+class LocationAdress {
   Future<String> getLocation(double? lat, double? long) async {
   final _key = "AIzaSyBaSib038pliNynRUQ8oPCbEF_6D_Bs5vs";
   final _urlGoogle = "https://maps.googleapis.com/maps/api/geocode/json?";
