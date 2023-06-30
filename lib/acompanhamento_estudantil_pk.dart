@@ -50,21 +50,20 @@ class InputsDecoration {
     );
   }
 
-   static Widget createVisibilityPassword(bool _visibilityEye, void releasePassword()) {
-    return Indexer(children: [
-                    Indexed(
-                      index: 100,
-                      child: Positioned(
-                          width: 27,
-                          height: 27,
-                          right: 5.0,
-                          top: 10.0,
-                          child: IconButton(
-                              onPressed: releasePassword,
-                              icon: _visibilityEye
-                                  ? const Icon(Icons.visibility)
-                                  : const Icon(Icons.visibility_off))),
-                    ),
-                  ]);
+  static Widget createVisibilityPassword(
+      bool _visibilityEye, void releasePassword()) {
+    return Indexed(
+      index: 100,
+      child: Positioned(
+          width: 27,
+          height: 27,
+          right: 5.0,
+          top: 10.0,
+          child: IconButton(
+              onPressed: releasePassword,
+              icon: _visibilityEye
+                  ? const Icon(Icons.visibility)
+                  : const Icon(Icons.visibility_off))),
+    );
   }
 }
