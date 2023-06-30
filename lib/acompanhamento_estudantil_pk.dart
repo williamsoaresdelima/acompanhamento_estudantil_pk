@@ -33,7 +33,7 @@ class LocationAdress {
 }
 
 class InputsDecoration {
-  InputDecoration createInputsDecorationText(String text, double size) {
+  static InputDecoration createInputsDecorationText(String text, double size) {
     return InputDecoration(
         contentPadding: EdgeInsets.zero,
         label: Text(
