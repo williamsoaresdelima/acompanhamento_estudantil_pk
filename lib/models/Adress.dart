@@ -17,15 +17,6 @@ class Address {
     this.postalCode,
   );
 
-  Map<String, dynamic> toJson() => {
-        'street': street,
-        'district': district,
-        'city': city,
-        'uf': uf,
-        'country': country,
-        'postalCode': postalCode,
-      };
-
   createAdress(Map<String, dynamic> json) {
     dynamic listDynamic = json["results"][0];
     List<dynamic> listDynamic2 = listDynamic["address_components"];
