@@ -51,14 +51,15 @@ class InputsDecoration {
   }
 
   static Widget createVisibilityPassword(
-      bool _visibilityEye, void releasePassword()) {
+      bool _visibilityEye, void releasePassword(), 
+      double right, double top, double width, double height) {
     return Indexed(
       index: 100,
       child: Positioned(
-          width: 27,
-          height: 27,
-          right: 5.0,
-          top: 10.0,
+          width: width,
+          height: height,
+          right: right,
+          top: top,
           child: IconButton(
               onPressed: releasePassword,
               icon: _visibilityEye
