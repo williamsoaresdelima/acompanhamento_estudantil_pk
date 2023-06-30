@@ -33,12 +33,19 @@ class LocationAdress {
 }
 
 class InputsDecoration {
-  static InputDecoration createInputsDecorationText(String text, double size) {
+  static InputDecoration createInputsDecorationText(String text) {
     return InputDecoration(
-        contentPadding: EdgeInsets.zero,
-        label: Text(
-          text,
-          style: TextStyle(fontSize: size),
-        ));
+      border: OutlineInputBorder(
+        borderRadius: BorderRadius.circular(10.0),
+        borderSide: BorderSide(
+          width: 0,
+          style: BorderStyle.none,
+        ),
+      ),
+      filled: true,
+      hintStyle: TextStyle(color: Colors.grey[800]),
+      hintText: text,
+      fillColor: Colors.white70,
+    );
   }
 }
