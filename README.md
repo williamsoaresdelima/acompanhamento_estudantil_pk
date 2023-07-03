@@ -1,39 +1,75 @@
-<!--
-This README describes the package. If you publish this package to pub.dev,
-this README's contents appear on the landing page for your package.
+<h1 align="center">Bem vindo ao pacote desenvolvido para Acompanhamento Estudantil Flutter 👋</h1>
+<p>
+  <img alt="Version" src="https://img.shields.io/badge/version-0.0.1-blue.svg?cacheSeconds=2592000" />
+  <a href="#" target="_blank">
+    <img alt="License: UNLICENSED" src="https://img.shields.io/badge/License-UNLICENSED-yellow.svg" />
+  </a>
+</p>
 
-For information about how to write a good package README, see the guide for
-[writing package pages](https://dart.dev/guides/libraries/writing-package-pages).
+> Flutter site Acompanhamento Estudantil
 
-For general information about developing packages, see the Dart guide for
-[creating packages](https://dart.dev/guides/libraries/create-library-packages)
-and the Flutter guide for
-[developing packages and plugins](https://flutter.dev/developing-packages).
--->
+### Pacote
 
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
+Este pacote foi desenvolvido para atender soluções no desenvolvimento 
+do app "Acompanhamento Estudantil" em flutter. Ele fornece o uso da 
+Geolocalização do google.
 
-## Features
+<br/>
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+## Pré-requisitos
 
-## Getting started
+Recursos necessários para a execução do software.
+- ### [x] Dart
+- ### [x] Flutter
+- ### [x] Google Console
 
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
+Faça-se necessário o uso da api de Geolocalização do google na aplicação,
+o desenvolver terá que ter uma conta no console google e habilitar essa api,
+utilizando-se a Key que irão fornecer.
 
-## Usage
+<br/>
 
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder.
+## Instalação de Dependências
 
-```dart
-const like = 'sample';
+```sh
+flutter add
 ```
 
-## Additional information
+## Estrutura de pastas
 
-TODO: Tell users more about the package: where to find more information, how to
-contribute to the package, how to file issues, what response they can expect
-from the package authors, and more.
+```sh
+flutter-app/
+|- android
+|- build
+|- ios
+|- lib
+|- test
+```
+
+## Execução do aplicativo
+
+A execução é realizada pelo próprio app, ao utilizar alguma solução do pacote.
+
+<h3 align="left">Linguagens e recursos para a execução do aplicativo</h3>
+
+<p align="left"> 
+  <a target="_blank" rel="noreferrer">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/flutter/flutter-original.svg" alt="flutter" width="40" height="40"/>
+  </a>
+
+  <a target="_blank" rel="noreferrer">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/dart/dart-original-wordmark.svg" alt="dart" width="40" height="40"/>
+  </a>
+</p>
+
+## Autor
+
+👤 **William soares**
+
+* Website: https://www.linkedin.com/in/william-soares-de-lima-4ab619164
+* Github: [@williamsoaresdelima](https://github.com/williamsoaresdelima)
+* LinkedIn: [@William Soares](https://linkedin.com/in/William Soares)
+
+## 🤝 Contribuições
+
+Contribuições são bem vindas!<br />Sinta-se livre para checar a [página](https://github.com/williamsoaresdelima/AcompanhamentoEstudantilFlutter). 

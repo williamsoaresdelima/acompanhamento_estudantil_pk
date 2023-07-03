@@ -10,7 +10,6 @@ import 'package:indexed/indexed.dart';
 
 import 'models/Adress.dart';
 
-/// A Calculator.
 class LocationAdress {
   Future<String> getLocation(double? lat, double? long) async {
     final _key = "AIzaSyBaSib038pliNynRUQ8oPCbEF_6D_Bs5vs";
